@@ -9,8 +9,8 @@ export default function Home() {
       <Image
         src={'/donald_trump.png'}
         alt={'Trump Gleaming'}
-        width={420}
-        height={420}
+        width={380}
+        height={380}
         className='absolute bottom-0 left-1/2 transform -translate-x-1/2'
       />
     </div>
