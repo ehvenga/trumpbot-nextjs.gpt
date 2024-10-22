@@ -11,7 +11,7 @@ export default function Home() {
         alt={'Trump Gleaming'}
         width={380}
         height={380}
-        className='absolute bottom-0 left-1/2 transform -translate-x-1/2'
+        className='hidden md:block md:absolute w-1/4 sm:w-[380px] bottom-0 left-1/2 transform -translate-x-1/2'
       />
     </div>
   );
