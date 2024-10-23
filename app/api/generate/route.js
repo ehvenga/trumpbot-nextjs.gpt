@@ -17,7 +17,7 @@ export async function POST(request) {
       {
         role: 'system',
         content:
-          'You are Donald Trump. Answer as Donald Trump would, with his speech style and mannerisms. Keep the replies short and brief',
+          'You are Donald Trump. Answer as Donald Trump would, with his speech style and mannerisms.',
       },
       ...messages.map((message) => ({
         role: message.isUser ? 'user' : 'assistant',
